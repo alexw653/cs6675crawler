@@ -15,6 +15,7 @@ This web crawler is a Python-based implementation that uses a **BFS** approach a
    ```
 Resulting plots can be viewed in the /plots directory  
 
+### Run the Crawler
 Run this line to start the crawling process:
 ```bash
 python3 -m crawler.main
