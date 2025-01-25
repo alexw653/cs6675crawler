@@ -4,7 +4,7 @@ from collections import deque
 import time
 import yake
 
-from .config import (
+from .crawler.config import (
     ALLOWED_DOMAIN
 )
 

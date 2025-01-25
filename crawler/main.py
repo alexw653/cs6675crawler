@@ -2,7 +2,7 @@ from .config import (
     SEED_URL, MAX_URLS, MONGO_URI, DB_NAME, COLLECTION_NAME
 )
 from .mongo_utils import get_mongo_collection
-from .crawler import bfs_crawl
+from . import bfs_crawl
 from .plotter import plot_crawl_stats
 
 def main():
