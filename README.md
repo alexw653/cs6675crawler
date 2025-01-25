@@ -13,7 +13,8 @@ This web crawler is a Python-based implementation that uses a **BFS** approach a
    ```bash
    pip install requests beautifulsoup4 yake pymongo
    ```
-Resulting plots can be viewed in the /plots directory
+Resulting plots can be viewed in the /plots directory  
+
 Run this line to start the crawling process:
 ```bash
 python3 -m crawler.main
