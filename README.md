@@ -18,6 +18,6 @@ Resulting plots can be viewed in the /plots directory
 ### Run the Crawler
 Run this line to start the crawling process:
 ```bash
-python3 -m crawler.main
+python3 -m webcrawler.main
 ```
 The MongoDB server should be started on port 27017.
