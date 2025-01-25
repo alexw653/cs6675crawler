@@ -4,9 +4,7 @@ from collections import deque
 import time
 import yake
 
-from .crawler.config import (
-    ALLOWED_DOMAIN
-)
+from .config import ALLOWED_DOMAIN
 
 def is_valid_url(url):
     if url.startswith("http") and ALLOWED_DOMAIN in url:
